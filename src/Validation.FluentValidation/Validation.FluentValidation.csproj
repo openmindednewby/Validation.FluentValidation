@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <RootNamespace>Validation.FluentValidation</RootNamespace>
-    <PackageId>Validation.FluentValidation</PackageId>
+    <AssemblyName>Validation.FluentValidation</AssemblyName>
+    <PackageId>Dloizides.Validation.FluentValidation</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
