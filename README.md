@@ -1,11 +1,26 @@
-# Validation.FluentValidation
+# Validation.FluentValidation — DEPRECATED
 
-Shared FluentValidation rules and constants for FastEndpoints services.
+> ## ⛔ DEPRECATED — do not install. Use [`DLoizides.Validation`](https://github.com/openmindednewby/DLoizides.Validation) instead.
+>
+> This package is a **duplicate**. Its five source files are byte-identical to those of
+> `DLoizides.Validation` apart from the namespace token and a UTF-8 BOM; the `<Description>`
+> string is verbatim identical. The two packages were published in parallel by accident.
+>
+> **`DLoizides.Validation` is the canonical package** and the one the fleet actually uses:
+> 9 services plus 1 test project reference it. **Zero projects reference this package** — it
+> reached 1.0.3 without ever having a consumer.
+>
+> Migration, if you somehow depend on this: replace the package reference with
+> `DLoizides.Validation` and change `using Validation.FluentValidation.*` to
+> `using Validation.Defaults.*`. Nothing else differs.
+>
+> Verified 2026-07-19 by a repo-wide sweep of every `.csproj` and `Directory.Packages.props`.
 
 ## Installation
 
 ```bash
-dotnet add package Validation.FluentValidation
+# Don't. Install the canonical package instead:
+dotnet add package DLoizides.Validation
 ```
 
 ## Usage
